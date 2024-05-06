@@ -1,0 +1,20 @@
+<% layout('layout/boilerplate') -%>
+
+<div class="border p-3 mx-auto w-50">
+    <h1>Login</h1>
+    <form method="post" action="/login">
+        <div class="mb-3">
+            <label class="form-label" for="username">Username</label>
+            <input class="form-control" type="text" name="username" id="username">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="password">Password</label>
+            <input class="form-control" type="password" name="password" id="password">
+        </div>
+        <button type="submit" class="btn btn-sm btn-dark">Login</button>
+        <div class="mb-3">
+            <p>Don't have an account ? <a href="/register">Register</a> </p>
+        </div>
+       
+    </form>
+</div
